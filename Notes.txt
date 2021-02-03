@@ -1,0 +1,18 @@
+
+header_dict={
+    "Bestellmenge": 4
+}
+
+header_dict["Bestellmenge"]
+
+
+mean = 0
+    sum = 0
+    length = len(alldata)
+
+    rows = get_index(search_term)
+
+    for lines in range(length):
+        sum = sum + float(alldata[lines][rows[search_term]])
+
+    mean = sum / length
